@@ -1,36 +1,42 @@
 import React from 'react';
 
-import { Button } from './Button';
+import { Card } from './Card';
 
 export default {
-  title: 'Example/Button',
-  component: Button,
+  title: 'Example/Card',
+  component: Card,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 };
 
-const Template = (args) => <Button {...args} />;
+const Template = (args) => <Card {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Card',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
+  label: 'Card',
 };
 
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
-  label: 'Button',
+  label: 'Card',
 };
 
 export const Small = Template.bind({});
 Small.args = {
   size: 'small',
-  label: 'Button',
+  label: 'Card',
+};
+
+export const CustomColor = Template.bind({});
+CustomColor.args = {
+  label: "Custom Color",
+  backgroundColor: "coral",
 };
