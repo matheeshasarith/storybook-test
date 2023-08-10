@@ -1,10 +1,4 @@
 .storybook-card {
-  /* font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0; 
-  cursor: pointer;
-  display: inline-block;
-  line-height: 10; */
   height: 25vw;
   width: 45vw;
   display: grid;
