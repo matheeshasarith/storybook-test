@@ -38,5 +38,5 @@ Small.args = {
 export const CustomColor = Template.bind({});
 CustomColor.args = {
   label: "Custom Color",
-  backgroundColor: "coral",
+  backgroundColor: "green",
 };
