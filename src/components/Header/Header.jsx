@@ -8,7 +8,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="wrapper">
       <div>
-        <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+        {/* <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
           <g fill="none" fillRule="evenodd">
             <path
               d="M10 0h12a10 10 0 0110 10v12a10 10 0 01-10 10H10A10 10 0 010 22V10A10 10 0 0110 0z"
@@ -23,8 +23,8 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
               fill="#91BAF8"
             />
           </g>
-        </svg>
-        <h1>Acme</h1>
+        </svg> */}
+        <h1>React Storybook</h1>
       </div>
       <div>
         {user ? (

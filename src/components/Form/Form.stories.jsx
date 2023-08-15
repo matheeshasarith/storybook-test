@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Header } from './Header';
+import { Form } from './Form';
 
 export default {
-  title: 'Components/Header',
-  component: Header,
+  title: 'Components/Form',
+  component: Form,
 };
 
-const Template = (args) => <Header {...args} />;
+const Template = (args) => <Form {...args} />;
 
 export const LoggedIn = Template.bind({});
 LoggedIn.args = {

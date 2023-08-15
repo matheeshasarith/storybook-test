@@ -6,8 +6,10 @@ import PropTypes from 'prop-types';
 
 export const Footer = ({ user }) => (
   <footer>
+ <hr/>
     <div className="wrapper">
       <div>
+       
         <h1>Footer</h1>
         <p>Author: Hege Refsnes
           <br/>

@@ -3,7 +3,7 @@ import React from 'react';
 import { Card } from './Card';
 
 export default {
-  title: 'Example/Card',
+  title: 'Components/Card',
   component: Card,
   argTypes: {
     backgroundColor: { control: 'color' },
