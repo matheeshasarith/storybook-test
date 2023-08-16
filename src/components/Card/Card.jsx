@@ -17,8 +17,7 @@ export const Card = ({ primary, backgroundColor, size, label, ...props }) => {
         <h1 className="text-2xl font-bold">Hello World</h1>
         <p className="text-sm my-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil
-          fuga repellat odit! Incidunt, corrupti. Ut quos ad ipsum itaque
-          blanditiis non rerum! A, debitis fugiat suscipit nesciunt illum at.
+          fuga repellat odit! Incidunt, corrupti. Ut quos ad ipsum itaque.
         </p>
         {label}
       </div>

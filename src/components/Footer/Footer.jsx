@@ -1,19 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-// import { Button } from '../Button/Button';
-// import './footer.css';
+import './footer.css';
 
 export const Footer = ({ user }) => (
-  <footer>
+  <footer className="footer">
  <hr/>
     <div className="wrapper">
       <div>
        
         <h1>Footer</h1>
-        <p>Author: Hege Refsnes
+        <p>Author: Matheesha Sarith Adhikari
           <br/>
-            <a href="mailto:hege@example.com">hege@example.com</a>
+          <a href="mailto:sarith.c@intervest.lk">sarith.c@intervest.lk</a>
         </p>
       </div>
     </div>
