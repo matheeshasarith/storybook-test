@@ -20,13 +20,6 @@ export const About = ({ }) => (
             <Form />
         </section>
 
-        <section>
-            <row>
-                <Card />
-            </row>
-            
-        </section>
-
         <Footer />
 
     </contaner>
